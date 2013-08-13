@@ -10,10 +10,13 @@
 
 #import "AppDelegate.h"
 #import "IntroLayer.h"
-
+#import "WTMGlyphDetector.h"
+#import "WTMGlyphDetectorView.h"
+#import "WTMGlyph.h"
+#define GESTURE_SCORE_THRESHOLD         0.7f
 @implementation AppController
 
-@synthesize window=window_, navController=navController_, director=director_;
+@synthesize window=window_, navController=navController_, director=director_, gestureDetectorView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -29,6 +32,14 @@
 									sharegroup:nil
 								 multiSampling:NO
 							   numberOfSamples:0];
+    
+    
+    self.gestureDetectorView = [[WTMGlyphDetectorView alloc] initWithFrame:glView.bounds];
+    self.gestureDetectorView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    self.gestureDetectorView.delegate = self;
+    [self.gestureDetectorView loadTemplatesWithNames:@"V", @"circle", @"triangle", nil];
+    [glView addSubview:self.gestureDetectorView];
+    
 
 	director_ = (CCDirectorIOS*) [CCDirector sharedDirector];
 
@@ -147,6 +158,27 @@
 	[navController_ release];
 
 	[super dealloc];
+}
+
+
+#pragma mark - Delegate
+
+- (void)wtmGlyphDetectorView:(WTMGlyphDetectorView*)theView glyphDetected:(WTMGlyph *)glyph withScore:(float)score
+{
+    //Reject detection when quality too low
+    //More info: http://britg.com/2011/07/17/complex-gesture-recognition-understanding-the-score/
+    if (score < GESTURE_SCORE_THRESHOLD)
+        return;
+    
+    NSString *statusString = @"";
+    
+    NSString *glyphNames = [self.gestureDetectorView getGlyphNamesString];
+    if ([glyphNames length] > 0)
+        statusString = [statusString stringByAppendingFormat:@"Loaded with %@ templates.\n\n", glyphNames];
+    
+    statusString = [statusString stringByAppendingFormat:@"Last gesture detected: %@\nScore: %.3f", glyph.name, score];
+    
+    self.lblStatus.text = statusString;
 }
 @end
 

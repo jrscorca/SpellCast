@@ -133,6 +133,35 @@
 		F2DA970117B5A99A00769C5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA970017B5A99A00769C5B /* AppDelegate.m */; };
 		F2DA970417B5A99A00769C5B /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA970317B5A99A00769C5B /* HelloWorldLayer.m */; };
 		F2DA970717B5A99A00769C5B /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA970617B5A99A00769C5B /* IntroLayer.m */; };
+		F2DA973C17B5A9FC00769C5B /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA970F17B5A9FC00769C5B /* CDataScanner.m */; };
+		F2DA973D17B5A9FC00769C5B /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA971017B5A9FC00769C5B /* D.json */; };
+		F2DA973E17B5A9FC00769C5B /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA971317B5A9FC00769C5B /* CFilteringJSONSerializer.m */; };
+		F2DA973F17B5A9FC00769C5B /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA971517B5A9FC00769C5B /* CJSONDeserializer_BlocksExtensions.m */; };
+		F2DA974017B5A9FC00769C5B /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA971717B5A9FC00769C5B /* CJSONSerialization.m */; };
+		F2DA974117B5A9FC00769C5B /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA971917B5A9FC00769C5B /* CJSONSerializedData.m */; };
+		F2DA974217B5A9FC00769C5B /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA971C17B5A9FC00769C5B /* CDataScanner_Extensions.m */; };
+		F2DA974317B5A9FC00769C5B /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA971E17B5A9FC00769C5B /* NSDictionary_JSONExtensions.m */; };
+		F2DA974417B5A9FC00769C5B /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA972117B5A9FC00769C5B /* CJSONDeserializer.m */; };
+		F2DA974517B5A9FC00769C5B /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA972317B5A9FC00769C5B /* CJSONScanner.m */; };
+		F2DA974617B5A9FC00769C5B /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA972517B5A9FC00769C5B /* CJSONSerializer.m */; };
+		F2DA974717B5A9FC00769C5B /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA972717B5A9FC00769C5B /* N.json */; };
+		F2DA974817B5A9FC00769C5B /* ndollar.js in Sources */ = {isa = PBXBuildFile; fileRef = F2DA972817B5A9FC00769C5B /* ndollar.js */; };
+		F2DA974917B5A9FC00769C5B /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA972917B5A9FC00769C5B /* P.json */; };
+		F2DA974A17B5A9FC00769C5B /* protractor-chi2010.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F2DA972A17B5A9FC00769C5B /* protractor-chi2010.pdf */; };
+		F2DA974B17B5A9FC00769C5B /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA972B17B5A9FC00769C5B /* T.json */; };
+		F2DA974C17B5A9FC00769C5B /* WTMDetectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA972D17B5A9FC00769C5B /* WTMDetectionResult.m */; };
+		F2DA974D17B5A9FC00769C5B /* WTMGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA973017B5A9FC00769C5B /* WTMGlyph.m */; };
+		F2DA974E17B5A9FC00769C5B /* WTMGlyphDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA973217B5A9FC00769C5B /* WTMGlyphDefaults.m */; };
+		F2DA974F17B5A9FC00769C5B /* WTMGlyphDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA973517B5A9FC00769C5B /* WTMGlyphDetector.m */; };
+		F2DA975017B5A9FC00769C5B /* WTMGlyphStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA973717B5A9FC00769C5B /* WTMGlyphStroke.m */; };
+		F2DA975117B5A9FC00769C5B /* WTMGlyphTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA973917B5A9FC00769C5B /* WTMGlyphTemplate.m */; };
+		F2DA975217B5A9FC00769C5B /* WTMGlyphUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA973B17B5A9FC00769C5B /* WTMGlyphUtilities.m */; };
+		F2DA975817B5AC1B00769C5B /* circle.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA975317B5AC1B00769C5B /* circle.json */; };
+		F2DA975917B5AC1B00769C5B /* square.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA975417B5AC1B00769C5B /* square.json */; };
+		F2DA975A17B5AC1B00769C5B /* triangle.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA975517B5AC1B00769C5B /* triangle.json */; };
+		F2DA975B17B5AC1B00769C5B /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA975617B5AC1B00769C5B /* V.json */; };
+		F2DA975C17B5AC1B00769C5B /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DA975717B5AC1B00769C5B /* W.json */; };
+		F2DA975F17B5B09900769C5B /* WTMGlyphDetectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA975E17B5B09900769C5B /* WTMGlyphDetectorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +427,56 @@
 		F2DA970317B5A99A00769C5B /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		F2DA970517B5A99A00769C5B /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		F2DA970617B5A99A00769C5B /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		F2DA970E17B5A9FC00769C5B /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		F2DA970F17B5A9FC00769C5B /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		F2DA971017B5A9FC00769C5B /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		F2DA971217B5A9FC00769C5B /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		F2DA971317B5A9FC00769C5B /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		F2DA971417B5A9FC00769C5B /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		F2DA971517B5A9FC00769C5B /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		F2DA971617B5A9FC00769C5B /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		F2DA971717B5A9FC00769C5B /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		F2DA971817B5A9FC00769C5B /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		F2DA971917B5A9FC00769C5B /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		F2DA971B17B5A9FC00769C5B /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		F2DA971C17B5A9FC00769C5B /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		F2DA971D17B5A9FC00769C5B /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		F2DA971E17B5A9FC00769C5B /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		F2DA972017B5A9FC00769C5B /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		F2DA972117B5A9FC00769C5B /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		F2DA972217B5A9FC00769C5B /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		F2DA972317B5A9FC00769C5B /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		F2DA972417B5A9FC00769C5B /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		F2DA972517B5A9FC00769C5B /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		F2DA972617B5A9FC00769C5B /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		F2DA972717B5A9FC00769C5B /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		F2DA972817B5A9FC00769C5B /* ndollar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ndollar.js; sourceTree = "<group>"; };
+		F2DA972917B5A9FC00769C5B /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		F2DA972A17B5A9FC00769C5B /* protractor-chi2010.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "protractor-chi2010.pdf"; sourceTree = "<group>"; };
+		F2DA972B17B5A9FC00769C5B /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		F2DA972C17B5A9FC00769C5B /* WTMDetectionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMDetectionResult.h; sourceTree = "<group>"; };
+		F2DA972D17B5A9FC00769C5B /* WTMDetectionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMDetectionResult.m; sourceTree = "<group>"; };
+		F2DA972E17B5A9FC00769C5B /* WTMGlyph-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WTMGlyph-Prefix.pch"; sourceTree = "<group>"; };
+		F2DA972F17B5A9FC00769C5B /* WTMGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyph.h; sourceTree = "<group>"; };
+		F2DA973017B5A9FC00769C5B /* WTMGlyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyph.m; sourceTree = "<group>"; };
+		F2DA973117B5A9FC00769C5B /* WTMGlyphDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDefaults.h; sourceTree = "<group>"; };
+		F2DA973217B5A9FC00769C5B /* WTMGlyphDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphDefaults.m; sourceTree = "<group>"; };
+		F2DA973317B5A9FC00769C5B /* WTMGlyphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDelegate.h; sourceTree = "<group>"; };
+		F2DA973417B5A9FC00769C5B /* WTMGlyphDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDetector.h; sourceTree = "<group>"; };
+		F2DA973517B5A9FC00769C5B /* WTMGlyphDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphDetector.m; sourceTree = "<group>"; };
+		F2DA973617B5A9FC00769C5B /* WTMGlyphStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphStroke.h; sourceTree = "<group>"; };
+		F2DA973717B5A9FC00769C5B /* WTMGlyphStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphStroke.m; sourceTree = "<group>"; };
+		F2DA973817B5A9FC00769C5B /* WTMGlyphTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphTemplate.h; sourceTree = "<group>"; };
+		F2DA973917B5A9FC00769C5B /* WTMGlyphTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphTemplate.m; sourceTree = "<group>"; };
+		F2DA973A17B5A9FC00769C5B /* WTMGlyphUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphUtilities.h; sourceTree = "<group>"; };
+		F2DA973B17B5A9FC00769C5B /* WTMGlyphUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphUtilities.m; sourceTree = "<group>"; };
+		F2DA975317B5AC1B00769C5B /* circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = circle.json; sourceTree = "<group>"; };
+		F2DA975417B5AC1B00769C5B /* square.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = square.json; sourceTree = "<group>"; };
+		F2DA975517B5AC1B00769C5B /* triangle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = triangle.json; sourceTree = "<group>"; };
+		F2DA975617B5AC1B00769C5B /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		F2DA975717B5AC1B00769C5B /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		F2DA975D17B5B09900769C5B /* WTMGlyphDetectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMGlyphDetectorView.h; sourceTree = "<group>"; };
+		F2DA975E17B5B09900769C5B /* WTMGlyphDetectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMGlyphDetectorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,6 +541,8 @@
 				F2DA970317B5A99A00769C5B /* HelloWorldLayer.m */,
 				F2DA970517B5A99A00769C5B /* IntroLayer.h */,
 				F2DA970617B5A99A00769C5B /* IntroLayer.m */,
+				F2DA975D17B5B09900769C5B /* WTMGlyphDetectorView.h */,
+				F2DA975E17B5B09900769C5B /* WTMGlyphDetectorView.m */,
 				F2DA958817B5A99800769C5B /* Resources */,
 				F2DA95A217B5A99800769C5B /* libs */,
 				F2DA96FB17B5A99A00769C5B /* Supporting Files */,
@@ -472,6 +553,11 @@
 		F2DA958817B5A99800769C5B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F2DA975317B5AC1B00769C5B /* circle.json */,
+				F2DA975417B5AC1B00769C5B /* square.json */,
+				F2DA975517B5AC1B00769C5B /* triangle.json */,
+				F2DA975617B5AC1B00769C5B /* V.json */,
+				F2DA975717B5AC1B00769C5B /* W.json */,
 				F2DA958917B5A99800769C5B /* Default.png */,
 				F2DA958B17B5A99800769C5B /* Default-Landscape~ipad.png */,
 				F2DA958D17B5A99800769C5B /* fps_images.png */,
@@ -492,6 +578,7 @@
 		F2DA95A217B5A99800769C5B /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				F2DA970D17B5A9FC00769C5B /* WTMGlyph */,
 				F2DA96B917B5A99900769C5B /* LICENSE_cocos2d.txt */,
 				F2DA96C817B5A99A00769C5B /* LICENSE_CocosDenshion.txt */,
 				F2DA96FA17B5A99A00769C5B /* LICENSE_Kazmath.txt */,
@@ -832,6 +919,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F2DA970D17B5A9FC00769C5B /* WTMGlyph */ = {
+			isa = PBXGroup;
+			children = (
+				F2DA970E17B5A9FC00769C5B /* CDataScanner.h */,
+				F2DA970F17B5A9FC00769C5B /* CDataScanner.m */,
+				F2DA971017B5A9FC00769C5B /* D.json */,
+				F2DA971117B5A9FC00769C5B /* Experimental */,
+				F2DA971A17B5A9FC00769C5B /* Extensions */,
+				F2DA971F17B5A9FC00769C5B /* JSON */,
+				F2DA972717B5A9FC00769C5B /* N.json */,
+				F2DA972817B5A9FC00769C5B /* ndollar.js */,
+				F2DA972917B5A9FC00769C5B /* P.json */,
+				F2DA972A17B5A9FC00769C5B /* protractor-chi2010.pdf */,
+				F2DA972B17B5A9FC00769C5B /* T.json */,
+				F2DA972C17B5A9FC00769C5B /* WTMDetectionResult.h */,
+				F2DA972D17B5A9FC00769C5B /* WTMDetectionResult.m */,
+				F2DA972E17B5A9FC00769C5B /* WTMGlyph-Prefix.pch */,
+				F2DA972F17B5A9FC00769C5B /* WTMGlyph.h */,
+				F2DA973017B5A9FC00769C5B /* WTMGlyph.m */,
+				F2DA973117B5A9FC00769C5B /* WTMGlyphDefaults.h */,
+				F2DA973217B5A9FC00769C5B /* WTMGlyphDefaults.m */,
+				F2DA973317B5A9FC00769C5B /* WTMGlyphDelegate.h */,
+				F2DA973417B5A9FC00769C5B /* WTMGlyphDetector.h */,
+				F2DA973517B5A9FC00769C5B /* WTMGlyphDetector.m */,
+				F2DA973617B5A9FC00769C5B /* WTMGlyphStroke.h */,
+				F2DA973717B5A9FC00769C5B /* WTMGlyphStroke.m */,
+				F2DA973817B5A9FC00769C5B /* WTMGlyphTemplate.h */,
+				F2DA973917B5A9FC00769C5B /* WTMGlyphTemplate.m */,
+				F2DA973A17B5A9FC00769C5B /* WTMGlyphUtilities.h */,
+				F2DA973B17B5A9FC00769C5B /* WTMGlyphUtilities.m */,
+			);
+			path = WTMGlyph;
+			sourceTree = "<group>";
+		};
+		F2DA971117B5A9FC00769C5B /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				F2DA971217B5A9FC00769C5B /* CFilteringJSONSerializer.h */,
+				F2DA971317B5A9FC00769C5B /* CFilteringJSONSerializer.m */,
+				F2DA971417B5A9FC00769C5B /* CJSONDeserializer_BlocksExtensions.h */,
+				F2DA971517B5A9FC00769C5B /* CJSONDeserializer_BlocksExtensions.m */,
+				F2DA971617B5A9FC00769C5B /* CJSONSerialization.h */,
+				F2DA971717B5A9FC00769C5B /* CJSONSerialization.m */,
+				F2DA971817B5A9FC00769C5B /* CJSONSerializedData.h */,
+				F2DA971917B5A9FC00769C5B /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		F2DA971A17B5A9FC00769C5B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F2DA971B17B5A9FC00769C5B /* CDataScanner_Extensions.h */,
+				F2DA971C17B5A9FC00769C5B /* CDataScanner_Extensions.m */,
+				F2DA971D17B5A9FC00769C5B /* NSDictionary_JSONExtensions.h */,
+				F2DA971E17B5A9FC00769C5B /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F2DA971F17B5A9FC00769C5B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F2DA972017B5A9FC00769C5B /* CJSONDeserializer.h */,
+				F2DA972117B5A9FC00769C5B /* CJSONDeserializer.m */,
+				F2DA972217B5A9FC00769C5B /* CJSONScanner.h */,
+				F2DA972317B5A9FC00769C5B /* CJSONScanner.m */,
+				F2DA972417B5A9FC00769C5B /* CJSONSerializer.h */,
+				F2DA972517B5A9FC00769C5B /* CJSONSerializer.m */,
+				F2DA972617B5A9FC00769C5B /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +1056,16 @@
 				F2DA959E17B5A99800769C5B /* Icon@2x.png in Resources */,
 				F2DA95A117B5A99800769C5B /* iTunesArtwork in Resources */,
 				F2DA96DF17B5A99A00769C5B /* ChangeLog in Resources */,
+				F2DA973D17B5A9FC00769C5B /* D.json in Resources */,
+				F2DA974717B5A9FC00769C5B /* N.json in Resources */,
+				F2DA974917B5A9FC00769C5B /* P.json in Resources */,
+				F2DA974A17B5A9FC00769C5B /* protractor-chi2010.pdf in Resources */,
+				F2DA974B17B5A9FC00769C5B /* T.json in Resources */,
+				F2DA975817B5AC1B00769C5B /* circle.json in Resources */,
+				F2DA975917B5AC1B00769C5B /* square.json in Resources */,
+				F2DA975A17B5AC1B00769C5B /* triangle.json in Resources */,
+				F2DA975B17B5AC1B00769C5B /* V.json in Resources */,
+				F2DA975C17B5AC1B00769C5B /* W.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1180,25 @@
 				F2DA970117B5A99A00769C5B /* AppDelegate.m in Sources */,
 				F2DA970417B5A99A00769C5B /* HelloWorldLayer.m in Sources */,
 				F2DA970717B5A99A00769C5B /* IntroLayer.m in Sources */,
+				F2DA973C17B5A9FC00769C5B /* CDataScanner.m in Sources */,
+				F2DA973E17B5A9FC00769C5B /* CFilteringJSONSerializer.m in Sources */,
+				F2DA973F17B5A9FC00769C5B /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				F2DA974017B5A9FC00769C5B /* CJSONSerialization.m in Sources */,
+				F2DA974117B5A9FC00769C5B /* CJSONSerializedData.m in Sources */,
+				F2DA974217B5A9FC00769C5B /* CDataScanner_Extensions.m in Sources */,
+				F2DA974317B5A9FC00769C5B /* NSDictionary_JSONExtensions.m in Sources */,
+				F2DA974417B5A9FC00769C5B /* CJSONDeserializer.m in Sources */,
+				F2DA974517B5A9FC00769C5B /* CJSONScanner.m in Sources */,
+				F2DA974617B5A9FC00769C5B /* CJSONSerializer.m in Sources */,
+				F2DA974817B5A9FC00769C5B /* ndollar.js in Sources */,
+				F2DA974C17B5A9FC00769C5B /* WTMDetectionResult.m in Sources */,
+				F2DA974D17B5A9FC00769C5B /* WTMGlyph.m in Sources */,
+				F2DA974E17B5A9FC00769C5B /* WTMGlyphDefaults.m in Sources */,
+				F2DA974F17B5A9FC00769C5B /* WTMGlyphDetector.m in Sources */,
+				F2DA975017B5A9FC00769C5B /* WTMGlyphStroke.m in Sources */,
+				F2DA975117B5A9FC00769C5B /* WTMGlyphTemplate.m in Sources */,
+				F2DA975217B5A9FC00769C5B /* WTMGlyphUtilities.m in Sources */,
+				F2DA975F17B5B09900769C5B /* WTMGlyphDetectorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

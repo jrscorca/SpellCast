@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"
 
+@class WTMGlyphDetectorView;
 @interface AppController : NSObject <UIApplicationDelegate, CCDirectorDelegate>
 {
 	UIWindow *window_;
@@ -20,5 +21,8 @@
 @property (nonatomic, retain) UIWindow *window;
 @property (readonly) UINavigationController *navController;
 @property (readonly) CCDirectorIOS *director;
+
+@property (nonatomic, strong) WTMGlyphDetectorView *gestureDetectorView;
+@property (nonatomic, strong) IBOutlet UILabel *lblStatus;
 
 @end
